@@ -1,4 +1,2 @@
-update_notifier
-===============
-
-update_notifier
+Welcome-Screen-Notification
+===========================

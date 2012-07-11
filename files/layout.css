@@ -1,0 +1,98 @@
+.wrapper                                { width:963px; margin:0 auto }
+
+#header                                 { overflow:hidden; height:65px; background: url("../img/navigation-highlight.png") no-repeat scroll 70% 0 #EDEDED; }
+
+#header .wrapper                        { width:983px; }
+
+#logo                                   { float:left; margin: 10px 10px 0 }
+#logo a                                 {}
+#logo a img                             {}
+
+#menu-main                              { float:right; height:65px }
+#menu-main ul                           { overflow:hidden; margin:0; margin-top:15px }
+#menu-main ul li                        { float:left; margin:0; list-style:none }
+#menu-main ul li a                      { display:block; padding: 10px; color:#031014; font-size:13px }
+#menu-main ul li a.current              {}
+#menu-main ul li:first-child a          { background:url(../img/menu-home-icon.png) 0 6px no-repeat; width:24px; height:24px; padding:10px 0; text-indent:-9999em }
+
+#navigation                             { background:#ededed url(../img/navigation-highlight.png) 70% 0 no-repeat; overflow:hidden; line-height:40px; border-top:1px solid #ddd; border-bottom:1px solid #f8f8f8 }
+#navigation h1                          { font-size:20px; font-weight:normal; color:#4d4d4d; margin:0; padding:0; line-height:38px; float:left }
+#navigation a                           {}
+#navigation a#link-back                 { float:left; color:#4d4d4d }
+#navigation a#link-back .icon           { float:left; margin-top:12px; margin-right:4px }
+#navigation a#take-part                 { float:right; background:url(../img/btn-take-part.png) repeat-x; margin-top:1px; width:87px; height:39px; text-indent:-9999em }
+#navigation a#take-part:hover           { background-position:0 -39px }
+
+#current-item-gutter                    { position:relative }
+#current-item-gutter .highlight         { position:absolute; z-index:999; height:1px; background:#19a3dd }
+
+#footer                                 { overflow:hidden; position:fixed; bottom:0; width:100%; background:#333; line-height:30px; padding:0 14px; color:#fff;
+                                          border-top:1px solid #fff; box-shadow:0 -1px 0 #c9cdcf; -moz-box-shadow:0 -1px 0 #c9cdcf; -webkit-box-shadow:0 -1px 0 #c9cdcf; }
+#footer a                               { color:#fff }
+
+#menu-footer                                { display:block; float:left; font-size:11px }
+#menu-footer a                              {}
+
+#social-footer                              { float:right }
+#social-footer .facebook-like               { float:right; width:120px; margin-top:6px; height:21px }
+#social-footer .twitter-button              { float:right; width:120px; margin-top:5px; height:21px }
+
+#link-page-up                               { position:fixed; background:url(../img/btn-up.png) no-repeat; width:42px; height:20px; bottom:50px; right:20px; text-indent:-9999em }
+#link-page-up:hover                         { background-position:0 -20px }
+
+#take-part-layer                            { background:#ececec; width:963px; height: 0px; overflow: hidden; }
+#take-part-layer .inner                     { padding: 20px 40px; height: 337px; border-bottom: 3px solid #4d4d4d !important }
+#take-part-layer h1                         { font-size:24px; font-style:italic; margin:14px 0 }
+#take-part-layer .description               { width:600px; font-weight:bold; color:#666 }
+#take-part-layer .hr                        { margin:14px 0 }
+
+#take-part-form                             {}
+#take-part-form form                        {}
+#take-part-form .row                        { overflow:hidden; margin-top:14px; }
+#take-part-form input                       {}
+#take-part-form textarea                    { width: 410px; padding:8px 8px; border:1px solid #bdbdbd; resize: none; height: 106px; }
+#take-part-form input[type="text"]          { width: 410px; padding:8px 8px; border:1px solid #bdbdbd }
+#take-part-form input[type="submit"]        { background:#19a3dd; padding:10px 20px; font-size:15px; font-weight:bold; color:#fff; border:0; cursor:pointer }
+#take-part-form input[type="submit"]:hover  { background-color:#1696cc }
+#take-part-form label                       { position:absolute; padding: 8px; color:#666; display: none; }
+#take-part-layer.visible label              { display: block; }
+#take-part-form label .required             { color:#19a3dd }
+
+#take-part-fields                           { overflow: hidden; }
+#take-part-left                             { float:left; width: 430px }
+#take-part-right                            { float:right; width: 430px }
+#footer	{ overflow:hidden; position:fixed; bottom:0; width:100%; background:#333; line-height:30px; padding:0 14px; color:#fff; border-top:1px solid #fff; box-shadow:0 -1px 0 #c9cdcf; -moz-box-shadow:0 -1px 0 #c9cdcf; -webkit-box-shadow:0 -1px 0 #c9cdcf; }
+#footer a	{ color:#fff }
+
+#menu-footer	{ display:block; float:left; font-size:11px }
+#menu-footer a	{}
+
+#social-footer	{ float:right; background:#e5e5e5 url("../img/footer_arrow.png") 0 0 no-repeat; width:303px; height:30px; display: block; padding-left: 25px}
+
+#social-footer #facebook	{ float:left; display:block; background: transparent url("../img/facebook_icon.png") 0 -20px no-repeat; width:10px; height:20px; text-indent:-2000px; margin-top:6px;  }
+#social-footer #facebook:hover	{ background-position: 0 0px; }
+
+#social-footer #twitter	{ float:left; display:block; background: transparent url("../img/twitter_icon.png") 0 -20px no-repeat; width:10px; height:17px; text-indent:-2000px; margin-top:9px;  }
+#social-footer #twitter:hover	{ background-position: 0 0px; }
+
+#social-footer #google_plus	{ float:left; display:block; background: transparent url("../img/google_icon.png") 0 -20px no-repeat; width:19px; height:19px; text-indent:-2000px; margin-top:8px; }
+#social-footer #google_plus:hover	{ background-position: 0 0px; }
+
+#social-footer #vimeo	{ float:left; display:block; background: transparent url("../img/vimeo_icon.png") 0 -20px no-repeat; width:15px; height:17px; text-indent:-2000px; margin-top:8px;  }
+#social-footer #vimeo:hover	{ background-position: 0 0px; }
+
+#social-footer #xing	{ float:left; display:block; background: transparent url("../img/xing_icon.png") 0 -20px no-repeat; width:13px; height:19px; text-indent:-2000px; margin-top:6px; }
+#social-footer #xing:hover	{ background-position: 0 0px; }
+
+#social-footer #linkedin	{ float:left; display:block; background: transparent url("../img/linkedin_icon.png") 0 -20px no-repeat; width:17px; height:19px; text-indent:-2000px; margin-top:7px;  }
+#social-footer #linkedin:hover	{ background-position: 0 0px; }
+
+#social-footer #rss	{ float:left; display:block; background: transparent url("../img/rss_icon.png") 0 -20px no-repeat; width:16px; height:18px; text-indent:-2000px; margin-top:7px; }
+#social-footer #rss:hover	{ background-position: 0 0px; }
+
+#social-footer #mail	{ float:left; display:block; background: transparent url("../img/mail_icon.png") 0 -20px no-repeat; width:19px; height:18px; text-indent:-2000px; margin-top:8px; }
+#social-footer #mail:hover	{ background-position: 0 0px; }
+
+#social-footer #seperator	{ float:left; display:block; background: transparent url("../img/seperator.png") 0 0px no-repeat; width:2px; height:18px; margin: 10px; }
+
+#label	{ size: 14px; font-weight: bold; float:right; text-align:right; height:30px; margin-right: 6px; }

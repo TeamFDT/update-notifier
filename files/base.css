@@ -1,0 +1,28 @@
+html                                    {}
+body                                    { font-family:"Arial"; font-size:12px; line-height:140%; color:#031014 }
+
+/*
+html                                    { background:url(../img/bg-body-gradient.jpg) bottom center no-repeat, url(../img/bg-noise.png) }
+body                                    { background:url(../img/bg-visuals.png) center 120px no-repeat, url(../img/bg-visuals-bottom.png) bottom right no-repeat }
+*/
+a, a:visited                            { color:#19a3dd; text-decoration:none }
+a:hover                                 {}
+a:focus, a:active                       { outline:none }
+
+h1, h2, h3, h4, h5, h6                  {}
+h1                                      { font-size:18px; font-weight:bold; color:#19a3dd }
+h2                                      { font-size:12px; font-weight:bold; margin-bottom:20px }
+h3                                      {}
+
+p                                       { margin:10px 0 }
+
+ul                                      { margin:10px 0 }
+ul li                                   { margin:4px 20px; list-style-image:url(../img/list-style-image.png) }
+ul li ul                                {}
+ul li ul li                             {}
+
+blockquote                              { margin: 30px 20px; font-style: italic; }
+blockquote cite                         { display: block; margin-top: 3px; font-weight: bold; }
+
+strong                                  { font-weight: bold; }
+em                                      { font-style: italic; }

@@ -1,0 +1,36 @@
+.left                                   { float:left }
+.right                                  { float:right }
+.container                              { overflow:hidden }
+
+.icon                                   { background:url(../img/spr-icons-16.png) no-repeat; width:16px; height:16px; display:inline-block; text-indent:-9999em }
+.icon.share                             { background-position: -32px 0 }
+.icon.config                            { background-position:-16px 0 }
+.icon.arrow-ltr                         { background-position:-48px -16px }
+.icon.arrow-rtl                         { background-position:0 -16px }
+.icon.arrow-white-ltr                   { background-position:-64px -16px }
+.icon.circle-filled                     { background-position:0 -32px }
+.icon.circle-selected                   { background-position:-16px -32px }
+.icon.circle                            { background-position:-32px -32px }
+.icon.download                          { background-position:0 -48px }
+.icon.lock                              { background-position:-16px -48px }
+
+
+.icon-32                                { background:url(../img/spr-icons-32.png) no-repeat; width:32px; height:32px; display:inline-block; text-indent:-9999em }
+.icon-32.featured                       { background-position:0 0 }
+.icon-32.fdt                            { background-position:0 -32px }
+.icon-32.docs                           { background-position:0 -64px }
+
+.flag                                   { width:77px; height:77px; position:absolute; text-indent:-9999em }
+.flag.featured-top-left                 { background:url(../img/flag-featured-top-left.png) no-repeat; top:-2px; left:-2px }
+.flag.featured-top-right                { background:url(../img/flag-featured-top-right.png) no-repeat; top:-2px; right:-2px }
+.flag.featured-bottom-right             { background:url(../img/flag-featured-bottom-right.png) no-repeat; bottom:-2px; right:-2px }
+
+hr, .hr                                 { height:1px; background:#c9c9c9 }
+
+.button, .button:visited, .button:active,
+.button:focus                           { cursor: pointer; display:inline-block; background:url(../img/spr-buttons.png) repeat-x; line-height:30px; color:#fff; font-size:15px; font-weight:bold }
+
+#get-fdt-banner                         { background:url(../img/banner-get-fdt.png) no-repeat; width:66px; height:153px; position:fixed; right:0; top:104px; text-indent:-9999em; }
+
+blockquote.tweet                        { font-size: 16px; }
+blockquote.tweet cite                   { font-size: 12px; }
